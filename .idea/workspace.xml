@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="17fbfe54-d93a-4c81-9620-d35740ec1483" name="Changes" comment="">
+    <list default="true" id="17fbfe54-d93a-4c81-9620-d35740ec1483" name="Changes" comment="Finish without bonus">
+      <change afterPath="$PROJECT_DIR$/src/org/java/esercitazioneSetMapList/Map.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/lessons/java/shop/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/lessons/java/shop/Prodotto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/lessons/java/shop/Prodotto.java" afterDir="false" />
@@ -24,23 +25,23 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2ZAbR3Wv5rGqYRXvCT5UHRTeQfl" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.lessons.java.shop.Main" />
       <module name="java-oop-shop" />
@@ -54,9 +55,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.java.esercitazioneSetMapList.Map" />
+      <module name="java-oop-shop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.java.esercitazioneSetMapList.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Map" />
       </list>
     </recent_temporary>
   </component>
@@ -69,6 +84,30 @@
       <option name="presentableId" value="Default" />
       <updated>1701867821575</updated>
     </task>
+    <task id="LOCAL-00001" summary="Finish without bonus">
+      <option name="closed" value="true" />
+      <created>1701874591620</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1701874591620</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Finish without bonus" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finish without bonus" />
   </component>
 </project>

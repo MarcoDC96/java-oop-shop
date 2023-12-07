@@ -11,7 +11,16 @@ public class Prodotto {
     private double iva;
 
     //COSTRUTTORE
-    public Prodotto(String nome, String descrizione, double prezzo, double iva) {
+    public Prodotto(String nome, String descrizione, double prezzo, double iva){
+        if (nome==null || nome.isEmpty()){
+            throw new IllegalArgumentException("Il nome non può essere vuoto");
+        }
+        if (iva < 0){
+            throw new IllegalArgumentException("Non puàessere negativa l'iva");
+        }
+        if (prezzo <= 0){
+            throw new IllegalArgumentException("Il prezzo non può essere negativo");
+        }
         this.codice = generaCodice();
         this.nome = nome;
         this.descrizione = descrizione;
@@ -65,7 +74,7 @@ public class Prodotto {
     }
 
     public double getPrezzoIva() {
-        return (prezzo * iva) / 100;
+        return prezzo + ((prezzo * iva) / 100);
     }
 
         public String getCodiceNome(){
